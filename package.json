@@ -1,0 +1,22 @@
+{
+  "name": "ultimate-developer",
+  "version": "1.0.0",
+  "description": "Discord bot voor discord development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "nodemon"
+  },
+  "keywords": [
+    "bot",
+    "ultimate-development"
+  ],
+  "author": "Arne",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
