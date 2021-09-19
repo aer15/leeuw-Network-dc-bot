@@ -85,7 +85,8 @@ client.on("message", async message => {
               .addFields(
                 {name: ":botinfo", value: "voor alle info over mij!"},
                 {name: ":serverinfo", value: "voor alle info over deze server!"},
-                {name: ":help", value: "voor alle commands die ik kan!"}
+                {name: ":help", value: "voor alle commands die ik kan!"},
+                {name: ":...", value: "er komen er nog meer aan"}
             );
   
           return message.channel.send(botEmbed);
