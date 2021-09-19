@@ -68,7 +68,9 @@ client.on("message", async message => {
                 {name: "totaal members + bot's", value:message.guild.memberCount},
                 {name: "maaker van de server", value: "Owner ➠ Jip"},
                 {name: "Owner's en developer", value: "Owner ➠ Jip, Owner ➠ Luna, Co Owner ➠ Jenne, Developer ➠ Arne, Co-owner ➠ Milan"}
-            );
+            )
+            .setFooter("server icon", "https://i.postimg.cc/90CHc7ZS/xxl.jpg")
+            .setTimestamp();
   
           return message.channel.send(botEmbed);
 
