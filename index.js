@@ -45,7 +45,7 @@ client.on("message", async message => {
             .setColor("#ff0000")
             .addField('Totaal members', totalCount)
             .addFields(
-                {name: "maaker", value: "Developer ➠ Arne"},
+                {name: "maker", value: "Developer ➠ Arne"},
                 {name: "Owner's en developer", value: "Owner ➠ Jip, Owner ➠ Luna, Co Owner ➠ Jenne, Developer ➠ Arne, Co-owner ➠ Milan"}
             )
             .setThumbnail("https://i.postimg.cc/90CHc7ZS/xxl.jpg")
