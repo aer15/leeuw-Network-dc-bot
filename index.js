@@ -61,12 +61,12 @@ client.on("message", async message => {
   
           var botEmbed = new discord.MessageEmbed()
               .setTitle("Bot info")
-              .setDescription("Ik ben de ultimate developer!")
+              .setDescription("Ik ben de bot van deze server!")
               .setColor("#ff0000")
               .addFields(
                 {name: "Je bent deze server gejoint op: ", value: message.member.joinedAt},
                 {name: "totaal members + bot's", value:message.guild.memberCount},
-                {name: "maaker van de server", value: "Owner ➠ Jip"},
+                {name: "maker van de server", value: "Owner ➠ Jip"},
                 {name: "Owner's en developer", value: "Owner ➠ Jip, Owner ➠ Luna, Co Owner ➠ Jenne, Developer ➠ Arne, Co-owner ➠ Milan"}
             )
             .setFooter("server icon", "https://i.postimg.cc/90CHc7ZS/xxl.jpg")
