@@ -60,7 +60,7 @@ client.on("message", async message => {
         const totalCount = message.guild.memberCount
   
           var botEmbed = new discord.MessageEmbed()
-              .setTitle("Bot info")
+              .setTitle("Server info")
               .setDescription("Ik ben de bot van deze server!")
               .setColor("#ff0000")
               .addFields(
