@@ -88,4 +88,4 @@ client.on("message", async message => {
 });
 
 
-client.login(botconfig.token);
+client.login(process.env.TOKEN);
