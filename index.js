@@ -41,7 +41,7 @@ client.on("message", async message => {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Bot info")
             .addField("Bot naam", client.user.username)
-            .setDescription("Ik ben de bot van leeuw network!")
+            .setDescription("Ik ben de bot van Aqua MT!")
             .setColor("#ff0000")
             .addField('Totaal members', totalCount)
             .addFields(
@@ -66,12 +66,11 @@ client.on("message", async message => {
               .addFields(
                 {name: "Je bent deze server gejoint op: ", value: message.member.joinedAt},
                 {name: "totaal members + bot's", value:message.guild.memberCount},
-                {name: "maker van de server", value: "Owner ➠ Jip"},
-                {name: "Owner's en developer", value: "Owner ➠ Jip, Owner ➠ Luna, Co Owner ➠ Jenne, Developer ➠ Arne, Co-owner ➠ Milan"}
+                {name: "Owner's en developer", value: "Owner ➠ Jip, Co Owner ➠ Jenne, Developer ➠ Arne, Co-owner ➠ Jullllllllllian"}
             )
             .setFooter("server icon", "https://i.postimg.cc/90CHc7ZS/xxl.jpg")
             .setTimestamp();
-  
+      
           return message.channel.send(botEmbed);
 
       }
