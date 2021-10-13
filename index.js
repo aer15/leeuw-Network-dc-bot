@@ -1,6 +1,6 @@
 const discord = require("discord.js");
 const botconfig = require("./botconfig.json");
-
+/*hhhh*/
 const client = new discord.Client();
 client.login(botconfig.token);
 
